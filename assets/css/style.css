@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #A33AC0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: hsl(286, 65%, 70%);
   text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: hsl(147, 80%, 25%);
 }
 
 #preloader:before {
@@ -44,7 +44,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid hsl(147, 80%, 15%);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -410,11 +410,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: hsl(286, 65%, 70%);
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: hsl(286, 65%, 80%);
 }
 
 #hero .btn-watch-video {
@@ -562,7 +562,7 @@ section {
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 15%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
