@@ -1,3 +1,11 @@
+/**
+* Template Name: Arsha
+* Updated: May 30 2023 with Bootstrap v5.3.0
+* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -7,12 +15,12 @@ body {
 }
 
 a {
-  color: #A33AC0;
+  color: #47b2e4;
   text-decoration: none;
 }
 
 a:hover {
-  color: hsl(286, 65%, 70%);
+  color: #73c5eb;
   text-decoration: none;
 }
 
@@ -36,7 +44,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: hsl(147, 80%, 25%);
+  background: #37517e;
 }
 
 #preloader:before {
@@ -44,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid hsl(147, 80%, 15%);
+  border: 6px solid #37517e;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -125,7 +133,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 120px;
+  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -378,7 +386,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: hsl(147, 80%, 25%);
+  background: #37517e;
 }
 
 #hero .container {
@@ -410,11 +418,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: hsl(286, 65%, 70%);
+  background: #47b2e4;
 }
 
 #hero .btn-get-started:hover {
-  background: hsl(286, 65%, 80%);
+  background: #209dd8;
 }
 
 #hero .btn-watch-video {
@@ -524,7 +532,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #BA00CC;
+  color: #37517e;
 }
 
 .section-title h2::before {
@@ -562,7 +570,7 @@ section {
 }
 
 .clients img {
-  max-width: 15%;
+  max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
