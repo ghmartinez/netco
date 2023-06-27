@@ -41,5 +41,3 @@ For further information about Netco Project, please contact us at sergio@pantheo
 ## Disclaimer
 
 This project is funded by the European Union. The views and opinions expressed here are solely those of the author(s) and do not necessarily reflect those of the European Union or its associated entities. Neither the European Union nor the granting authority can be held responsible for any information shared within this repository.
-
-![EU Flag](eu_flag.png)
