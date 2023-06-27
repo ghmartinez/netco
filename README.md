@@ -18,10 +18,9 @@ To access the resources and information in this repository, please follow these 
 
 1. Clone the repository to your local machine using the following command:
 
+```bash
 git clone https://github.com/your-username/netco-project.git
-
-git clone https://github.com/your-username/netco-project.git
-
+```
 
 2. Explore the repository's contents, including documentation, reports, and event descriptions.
 
@@ -37,7 +36,7 @@ Throughout the project timeline, several events and conferences will take place.
 
 ## Contact
 
-For further information about Netco Project, please contact us at netcoprojectcontact@gmail.com.
+For further information about Netco Project, please contact us at sergio@pantheon.work.
 
 ## Disclaimer
 
