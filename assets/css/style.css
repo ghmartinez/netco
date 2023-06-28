@@ -87,7 +87,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #6B1F84;
   color: #fff;
 }
 
@@ -107,7 +107,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(27, 245, 148, 0.8);
 }
 
 #header .logo {
