@@ -35,7 +35,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -166,7 +166,36 @@
   }
 
   /**
-   * Initiate  glightbox 
+   * Preloader
+   */
+  function acceptCookies() {
+    // Set a cookie with an expiration date (e.g., 30 days)
+    var date = new Date();
+    date.setTime(date.getTime() + 30 * 24 * 60 * 60 * 1000);
+    document.cookie = "cookiesAccepted=true; expires=" + date.toUTCString() + "; path=/";
+
+    // Hide the cookies banner
+    document.getElementById("cookies-banner").style.display = "none";
+  }
+
+  // Check if the cookies have already been accepted
+  function checkCookiesAccepted() {
+    var cookiesAccepted = document.cookie.indexOf("cookiesAccepted=") !== -1;
+
+    if (cookiesAccepted) {
+      // Cookies have already been accepted, hide the banner
+      document.getElementById("cookies-banner").style.display = "none";
+    }
+  }
+
+  // Attach event listener to the "Accept" button
+  document.getElementById("accept-cookies").addEventListener("click", acceptCookies);
+
+  // Check if cookies are already accepted on page load
+  window.addEventListener("load", checkCookiesAccepted);
+
+  /**
+   * Initiate  glightbox
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
@@ -220,7 +249,7 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'

@@ -64,6 +64,33 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Cookies
+--------------------------------------------------------------*/
+#cookies-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#accept-cookies {
+  background-color: #1BF594;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#accept-cookies:hover {
+  background-color: #0EBB78;
+  transition: 0.4s;
+}
+
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
