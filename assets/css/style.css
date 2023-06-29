@@ -74,6 +74,7 @@ h6 {
   color: #fff;
   padding: 10px;
   text-align: center;
+  font-size: 12px;
 }
 
 #accept-cookies {
@@ -905,19 +906,19 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
+  background: url("../img/cta-bg.jpg") fixed center center;
+  background-size: contain;
   padding: 120px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: black;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .cta .cta-btn {
@@ -930,8 +931,8 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid black;
+  color: black;
 }
 
 .cta .cta-btn:hover {
@@ -942,6 +943,9 @@ section {
 @media (max-width: 1024px) {
   .cta {
     background-attachment: scroll;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 255, 154, 0.9), rgba(0, 255, 154, 0.5)),
+      url("../img/cta-bg.jpg") fixed center center;
   }
 }
 
