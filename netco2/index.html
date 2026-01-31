@@ -5,12 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NETCO II — Network of Cities for Collaborative Housing</title>
+  <title>NETCO II — Coming soon</title>
   <meta
-    content="NETCO II: a renewed phase of the Network of Cities for Collaborative Housing, strengthening coordination, peer learning, and shared communication across partners and work packages."
+    content="NETCO II is the renewed phase of the Network of Cities for Collaborative Housing (NETCO), strengthening coordination, planning and communication support across partners and Working Packages."
     name="description">
-  <meta content="collaborative housing, right to housing, local governments, cohousing, peer learning, CERV"
-    name="keywords">
+  <meta content="collaborative housing, cohousing, cities, CERV, working packages" name="keywords">
 
   <!-- Favicons -->
   <link href="/assets/img/favicon.png" rel="icon">
@@ -32,6 +31,47 @@
 
   <!-- Template Main CSS File -->
   <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+    /* Keep both hero buttons aligned and same height */
+    .hero-btns {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 18px;
+    }
+
+    .hero-btns a.btn-get-started {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 44px;
+      padding: 0 18px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    /* Improve contrast for the small hero note */
+    .hero-note {
+      margin-top: 12px;
+      color: rgba(0, 0, 0, 0.75);
+      font-size: 14px;
+      max-width: 520px;
+    }
+
+    /* Small phase badge */
+    .phase-badge {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.75);
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 13px;
+      font-weight: 600;
+    }
+  </style>
 </head>
 
 <body>
@@ -40,9 +80,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="/netco2/" class="logo me-auto">
-        <img src="/assets/img/logo.png" alt="NETCO logo" class="img-fluid">
-      </a>
+      <a href="/netco2/" class="logo me-auto"><img src="/assets/img/logo.png" alt="NETCO logo" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -51,9 +89,10 @@
           <li><a class="nav-link scrollto" href="#work-packages">Work Packages</a></li>
           <li><a class="nav-link scrollto" href="#activities">Activities</a></li>
           <li><a class="nav-link scrollto" href="#partners">Partners</a></li>
-          <li><a class="nav-link scrollto" href="#project-coordinator">Coordinator</a></li>
+          <li><a class="nav-link scrollto" href="#coordinator">Coordinator</a></li>
+
           <li><a class="nav-link getstarted scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted" href="/netco1/">NETCO I (Archive)</a></li>
+          <li><a class="nav-link getstarted" href="/netco1/">NETCO I (Archive)</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -63,35 +102,37 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-
     <div class="container">
       <div class="row">
+
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
           data-aos="fade-up" data-aos-delay="200">
+
           <h1>NETCO II</h1>
-          <h2>
+          <div class="phase-badge">Phase II — Coming soon</div>
+
+          <h2 style="margin-top:14px;">
             A renewed phase to strengthen coordination, peer learning, and shared communication across cities and
             partners working on collaborative housing.
           </h2>
 
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#phase2" class="btn-get-started scrollto">What’s new in NETCO II</a>
-            <a href="/netco1/" class="btn-learn-more ms-3">NETCO I archive</a>
+          <div class="hero-btns">
+            <a href="#whats-new" class="btn-get-started scrollto">What’s new in NETCO II</a>
+            <a href="/netco1/" class="btn-get-started">Go to NETCO I archive</a>
           </div>
 
-          <div class="mt-3">
-            <small class="text-white-50">
-              This is the current project phase (NETCO II). Materials from NETCO I remain available in the archive.
-            </small>
+          <div class="hero-note">
+            This is the current project phase (NETCO II). Materials from NETCO I remain available in the archive.
           </div>
+
         </div>
 
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="/assets/img/hero-img.png" class="img-fluid animated" alt="NETCO illustration">
+          <img src="/assets/img/hero-img.png" class="img-fluid animated" alt="NETCO visual">
         </div>
+
       </div>
     </div>
-
   </section><!-- End Hero -->
 
   <main id="main">
@@ -99,88 +140,80 @@
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
       <div class="container">
-
         <div class="row" data-aos="zoom-in">
 
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <img src="/assets/img/clients/client-1.png" class="img-fluid" alt="European Union flag">
+            <img src="/assets/img/clients/client-1.png" class="img-fluid" alt="European Union">
           </div>
 
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <img src="/assets/img/clients/client-2.png" class="img-fluid" alt="Ajuntament de Barcelona">
+            <!-- Manresa logo (already in your repo) -->
+            <img src="/assets/img/clients/Sen%20t%C3%ADtulo.png" class="img-fluid" alt="Ajuntament de Manresa">
           </div>
 
         </div>
-
       </div>
     </section><!-- End Clients Section -->
 
-    <!-- ======= Phase II (Coming soon / in progress) ======= -->
-    <section id="phase2" class="about">
+    <!-- ======= What's new Section ======= -->
+    <section id="whats-new" class="about">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
-          <h2>Phase II — In progress</h2>
+          <h2>What’s new in NETCO II</h2>
         </div>
 
         <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              NETCO II is currently underway. This website is being updated progressively as activities and materials
-              become available.
-            </p>
+          <div class="col-lg-12">
             <ul>
-              <li><i class="ri-check-double-line"></i> Stronger coordination and closer follow-up with partners</li>
-              <li><i class="ri-check-double-line"></i> Clear operating protocols for communication support</li>
-              <li><i class="ri-check-double-line"></i> A structured cycle of webinars, in-person meetings, and focus
-                groups</li>
+              <li><i class="ri-check-double-line"></i> More planning, structure and regular follow-up than in NETCO I.</li>
+              <li><i class="ri-check-double-line"></i> Closer coordination with partners leading each Working Package.</li>
+              <li><i class="ri-check-double-line"></i> A clear operational mode for communication support and shared publishing.</li>
             </ul>
-          </div>
 
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Looking for materials from the previous phase (reports, past events, recordings)?
-            </p>
-            <a href="/netco1/" class="btn-learn-more">Go to NETCO I archive</a>
+            <div class="alert alert-info mt-4" role="alert">
+              This page is being updated. The calendar, materials, partner directory and communication resources will be
+              published shortly.
+            </div>
+
+            <h3 class="mt-4">What will be published here</h3>
+            <ul>
+              <li><strong>Activity calendar</strong> (webinars, full-network in-person meetings, and smaller focus groups)</li>
+              <li><strong>Communication materials</strong> and templates (slides, docs, visual assets)</li>
+              <li><strong>Partner directory</strong> (partners, links and social profiles)</li>
+              <li><strong>Reporting</strong> and communication deliverables</li>
+              <li><strong>Basic communication protocol</strong> (who provides what, and who publishes what, for each format)</li>
+            </ul>
+
+            <h3 class="mt-4">Working formats</h3>
+            <ul>
+              <li><strong>Webinars</strong> (online sessions)</li>
+              <li><strong>In-person network meetings</strong> (full consortium gatherings)</li>
+              <li><strong>Focus groups</strong> (smaller working sessions)</li>
+            </ul>
+
           </div>
         </div>
-
       </div>
-    </section><!-- End Phase II Section -->
+    </section><!-- End What's new Section -->
 
-    <!-- ======= About Section (NETCO II) ======= -->
+    <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>About NETCO II</h2>
         </div>
 
         <div class="row content">
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <p>
-              <strong>NETCO II</strong> continues the Network of Cities for Collaborative Housing, reinforcing peer
-              learning and cooperation among cities, civil society, and organisations working on collective housing
-              approaches at local level.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> More planning and structure than the previous phase</li>
-              <li><i class="ri-check-double-line"></i> Stronger management, tracking, and coordination across the
-                network</li>
-              <li><i class="ri-check-double-line"></i> Clear communication support so partners know “who does what”</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              NETCO II strengthens how the network operates: closer collaboration with partners leading each work stream,
-              shared communication resources, and better coordination around deliverables.
+              <strong>Network of Cities for Collaborative Housing (NETCO)</strong> is a network of cities and partners
+              collaborating to exchange practices and strengthen local policies on collaborative housing. NETCO II is the
+              renewed project phase, with increased coordination and clearer shared working routines.
             </p>
             <p>
-              This phase focuses on practical exchange across cities and partners, improving shared visibility of
-              activities and outcomes, and building reusable communication workflows for the network.
+              NETCO II is structured around <strong>10 Working Packages</strong> and the three main working formats
+              described above.
             </p>
-            <a href="#contact" class="btn-learn-more">Contact the coordination team</a>
           </div>
         </div>
 
@@ -190,257 +223,172 @@
     <!-- ======= Work Packages Section ======= -->
     <section id="work-packages" class="services">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
-          <h2>Work Packages & Formats</h2>
-          <p>
-            NETCO II includes <strong>10 Work Packages</strong> implemented through three main formats. Communication
-            support is designed so that partners leading each Work Package can easily publish, share and amplify
-            activities across the network.
-          </p>
+          <h2>Work Packages</h2>
+          <p>The 10 Working Packages and their focal points will be published here.</p>
         </div>
 
         <div class="row">
-          <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-video"></i></div>
-              <h4>Webinars</h4>
-              <p>
-                Online sessions to share practices, policy tools and implementation lessons.
-                (Partner-led; webinars are facilitated by Urbamonde.)
-              </p>
-              <p><strong>Status:</strong> Calendar coming soon.</p>
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP1</h4>
+              <p>Coming soon</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP2</h4>
+              <p>Coming soon</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP3</h4>
+              <p>Coming soon</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP4</h4>
+              <p>Coming soon</p>
             </div>
           </div>
 
-          <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-group"></i></div>
-              <h4>Network Meetings</h4>
-              <p>
-                In-person meetings gathering the network to consolidate learning, align on outputs and reinforce
-                connections between partners.
-              </p>
-              <p><strong>Status:</strong> Dates coming soon.</p>
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP5</h4>
+              <p>Coming soon</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP6</h4>
+              <p>Coming soon</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP7</h4>
+              <p>Coming soon</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP8</h4>
+              <p>Coming soon</p>
             </div>
           </div>
 
-          <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
-            data-aos-delay="300">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-task"></i></div>
-              <h4>Focus Groups</h4>
-              <p>
-                Smaller working groups focused on specific topics, tools or deliverables, with tighter collaboration
-                between partners.
-              </p>
-              <p><strong>Status:</strong> Topics and schedule coming soon.</p>
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP9</h4>
+              <p>Coming soon</p>
             </div>
           </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4>WP10</h4>
+              <p>Coming soon</p>
+            </div>
+          </div>
+
         </div>
-
-        <div class="row mt-4">
-          <div class="col-lg-12">
-            <div class="alert alert-info" role="alert">
-              <strong>Communication support model:</strong> partners leading each activity share a minimal set of inputs
-              (title, date, speakers, links, visuals) and the coordination team supports publication on the website and
-              shared distribution across channels.
-            </div>
-          </div>
-        </div>
-
       </div>
     </section><!-- End Work Packages Section -->
 
-    <!-- ======= Activities Section (NETCO II) ======= -->
+    <!-- ======= Activities Section ======= -->
     <section id="activities" class="services section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
-          <h2>Activities (NETCO II)</h2>
-          <p>
-            Upcoming activities and materials will be published here as the NETCO II calendar is consolidated.
-            For previous phase outputs, visit the <a href="/netco1/"><strong>NETCO I archive</strong></a>.
-          </p>
+          <h2>Activities</h2>
+          <p>The activity calendar will be published here (webinars, in-person meetings and focus groups).</p>
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-xl-8 col-md-10 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box w-100">
-              <div class="icon"><i class="bx bx-calendar"></i></div>
-              <h4>Calendar — Coming soon</h4>
-              <p>
-                The full schedule of webinars, network meetings and focus groups will appear here.
-                This section will be updated progressively.
-              </p>
-              <p>
-                Meanwhile, you can:
-              </p>
-              <ul style="margin-bottom: 0;">
-                <li>Contact the coordination team to request information</li>
-                <li>Browse past materials in the NETCO I archive</li>
-              </ul>
-              <div class="mt-3">
-                <a href="#contact" class="btn btn-primary">Contact</a>
-                <a href="/netco1/" class="btn btn-outline-primary ms-2">NETCO I archive</a>
-              </div>
-            </div>
-          </div>
+        <div class="alert alert-info" role="alert">
+          Phase II — Coming soon.
         </div>
-
       </div>
     </section><!-- End Activities Section -->
 
     <!-- ======= Partners Section ======= -->
     <section id="partners" class="about">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Partners</h2>
-          <p>
-            NETCO is built through collaboration among cities and organisations across Europe.
-            The list below reflects network partners and stakeholders involved in the project.
-          </p>
+          <p>Consortium partners participating in NETCO II.</p>
         </div>
 
         <div class="row content">
           <div class="col-lg-6">
             <ul>
-              <li><i class="ri-check-double-line"></i> <a href="https://ajuntament.barcelona.cat/ca/" target="_blank"
-                  rel="noopener">Ajuntament de Barcelona</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.comune.bologna.it/" target="_blank"
-                  rel="noopener">Comune di Bologna</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.urbanlab.org/" target="_blank"
-                  rel="noopener">Associazione Urban Lab</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.jssmol.si/" target="_blank"
-                  rel="noopener">Javni stanovanjski sklad Mestne občine Ljubljana</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.strasbourg.eu/" target="_blank"
-                  rel="noopener">Eurométropole de Strasbourg</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.zagreb.hr/" target="_blank"
-                  rel="noopener">Grad Zagreb</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.manresa.cat/" target="_blank" rel="noopener">Ajuntament de Manresa</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://sostrecivic.coop/" target="_blank" rel="noopener">Sostre Cívic SCCL</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://fvmp.es/" target="_blank" rel="noopener">Federación Valenciana de Municipios y Provincias</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.comune.bologna.it/" target="_blank" rel="noopener">Comune di Bologna</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.comune.fi.it/" target="_blank" rel="noopener">Comune di Firenze</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.strasbourg.eu/" target="_blank" rel="noopener">Eurométropole de Strasbourg</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.urbamonde.org/" target="_blank" rel="noopener">urbamonde-France</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.eindhoven.nl/" target="_blank" rel="noopener">Gemeente Eindhoven</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.amsterdam.nl/" target="_blank" rel="noopener">Gemeente Amsterdam</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="http://www.zmc.ro/" target="_blank" rel="noopener">Zona Metropolitana Cluj (ADI ZMC)</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.thessaloniki.gr/" target="_blank" rel="noopener">Dimos Thessalonikis</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.chalandri.gr/" target="_blank" rel="noopener">Dimos Chalandriou</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-6 pt-4 pt-lg-0">
+          <div class="col-lg-6">
             <ul>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.eindhoven.nl/" target="_blank"
-                  rel="noopener">Gemeente Eindhoven</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://sprb.brussels/fr" target="_blank"
-                  rel="noopener">Service Public Regional de Bruxelles</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="http://www.zmc.ro/" target="_blank"
-                  rel="noopener">Asociatia de Dezvoltare Intercomunitara Zona Metropolitana Cluj</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.grandlyon.com/" target="_blank"
-                  rel="noopener">Métropole de Lyon</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.dresden.de/" target="_blank"
-                  rel="noopener">Landeshauptstadt Dresden</a></li>
-              <li><i class="ri-check-double-line"></i> <a href="https://www.amsterdam.nl/" target="_blank"
-                  rel="noopener">Gemeente Amsterdam</a></li>
+              <li><i class="ri-check-double-line"></i> Stowarzyszenie Mieszkaniowe WSPOL <!-- TODO: add official link --></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://id22.de/" target="_blank" rel="noopener">ID22 – Institute for Creative Sustainability e.V.</a></li>
+              <li><i class="ri-check-double-line"></i> Connection-Berlin <!-- TODO: add official link --></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.kosice.sk/" target="_blank" rel="noopener">Košice City</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.soderhamn.se/" target="_blank" rel="noopener">Söderhamns kommun</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://be.brussels/" target="_blank" rel="noopener">Service Public Régional de Bruxelles (SPRB)</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.zagreb.hr/" target="_blank" rel="noopener">Grad Zagreb</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.cm-gaia.pt/" target="_blank" rel="noopener">Município de Vila Nova de Gaia</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.ihrb.org/" target="_blank" rel="noopener">Institute for Human Rights and Business</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.polito.it/" target="_blank" rel="noopener">Politecnico di Torino</a></li>
+              <li><i class="ri-check-double-line"></i> <a href="https://www.communitylandtrust.eu/" target="_blank" rel="noopener">European Community Land Trust Network</a></li>
             </ul>
-
-            <p class="mt-3">
-              <a href="/netco1/" class="btn-learn-more">See NETCO I archive</a>
-            </p>
           </div>
-        </div>
 
+        </div>
       </div>
     </section><!-- End Partners Section -->
 
-    <!-- ======= Project Coordinator Section ======= -->
-    <section id="project-coordinator" class="team section-bg">
+    <!-- ======= Coordinator Section ======= -->
+    <section id="coordinator" class="team section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
-          <h2>Project Coordinator</h2>
-          <p>
-            The coordination team supports partners, follows up on work package implementation, and provides shared
-            communication resources across the network.
-          </p>
+          <h2>Coordinator</h2>
+          <p>Coordination details will be published here.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="/assets/img/Maite Arrondo.jpg" class="img-fluid rounded-circle" alt="Maite Arrondo"></div>
+              <div class="pic"><img src="/assets/img/Maite Arrondo.jpg" class="img-fluid rounded-circle" alt="Coordinator"></div>
               <div class="member-info">
                 <h4>Maite Arrondo</h4>
                 <span>Project Coordinator</span>
-                <p>Consultant on Innovation in Housing Policies</p>
-                <div class="social">
-                  <a href="https://twitter.com/dchovivienda" target="_blank" rel="noopener"><i
-                      class="ri-twitter-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/maitearrondosegovia/" target="_blank" rel="noopener"><i
-                      class="ri-linkedin-box-fill"></i></a>
-                  <a href="mailto:maitearrondo@gmail.com"><i class="ri-mail-fill"></i></a>
-                </div>
+                <p>Consultant on innovation in housing policies</p>
               </div>
             </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End Project Coordinator Section -->
-
-    <!-- ======= FAQ Section (NETCO II) ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Key questions about NETCO II and how the network works.</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
-                What is NETCO II?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  NETCO II is the current phase of the Network of Cities for Collaborative Housing. It reinforces
-                  coordination, follow-up and shared communication support for partners leading activities and work
-                  packages.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">
-                How are activities organised?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  NETCO II operates through 10 work packages implemented via three formats: webinars, network meetings,
-                  and focus groups. Partners lead activities and the coordination team supports publication and
-                  distribution.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">
-                Where can I find outputs from the previous phase?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Outputs from NETCO I remain available in the archive: <a href="/netco1/"><strong>/netco1/</strong></a>.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section><!-- End FAQ Section -->
+    </section><!-- End Coordinator Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -448,62 +396,8 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Do you have any questions or suggestions for the project organising team? Contact us.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>C. de Pujades, 350, 08019 Barcelona</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>
-                  <a href="mailto:netcoprojectcontact@gmail.com">netcoprojectcontact@gmail.com</a>
-                </p>
-              </div>
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.992154898499!2d2.1972924157434974!3d41.4009393010836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2dcecaafcad%3A0xc4cbb2f3d5dc0be3!2sCarrer%20de%20Pujades%2C%20350%2C%2008019%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sus!4v1625971996681!5m2!1sen!2sus"
-                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="email">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
+          <p>For coordination and communication questions, contact:</p>
+          <p><a href="mailto:netcoprojectcontact@gmail.com">netcoprojectcontact@gmail.com</a></p>
         </div>
 
       </div>
@@ -513,100 +407,16 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 footer-links">
-            <h4 class="text-center">NETCO Partners</h4>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://ajuntament.barcelona.cat/ca/" target="_blank"
-                      rel="noopener">Ajuntament de Barcelona</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.comune.bologna.it/" target="_blank"
-                      rel="noopener">Comune di Bologna</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.urbanlab.org/" target="_blank"
-                      rel="noopener">Associazione Urban Lab</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.jssmol.si/" target="_blank"
-                      rel="noopener">Javni stanovanjski sklad Mestne občine Ljubljana</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.strasbourg.eu/" target="_blank"
-                      rel="noopener">Eurométropole de Strasbourg</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.zagreb.hr/" target="_blank"
-                      rel="noopener">Grad Zagreb</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.eindhoven.nl/" target="_blank"
-                      rel="noopener">Gemeente Eindhoven</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://sprb.brussels/fr" target="_blank"
-                      rel="noopener">Service Public Regional de Bruxelles</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="http://www.zmc.ro/" target="_blank"
-                      rel="noopener">Asociatia de Dezvoltare Intercomunitara Zona Metropolitana Cluj</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.grandlyon.com/" target="_blank"
-                      rel="noopener">Métropole de Lyon</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.dresden.de/" target="_blank"
-                      rel="noopener">Landeshauptstadt Dresden</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.amsterdam.nl/" target="_blank"
-                      rel="noopener">Gemeente Amsterdam</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 footer-links">
-            <h4 class="text-center">Our Social Networks</h4>
-            <p class="text-center">Follow Us</p>
-            <div class="social-links mt-3 text-center">
-              <a href="https://twitter.com/NETCOproject" class="twitter" target="_blank" rel="noopener"><i
-                  class="bx bxl-twitter"></i></a>
-              <a href="https://www.facebook.com/NETCOproject" class="facebook" target="_blank" rel="noopener"><i
-                  class="bx bxl-facebook"></i></a>
-              <a href="https://www.linkedin.com/company/NETCOproject" class="linkedin" target="_blank" rel="noopener"><i
-                  class="bx bxl-linkedin"></i></a>
-              <a href="https://mastodon.world/@NETCO" class="mastodon" target="_blank" rel="noopener"><i
-                  class="bx bxl-mastodon"></i></a>
-            </div>
-
-            <div class="mt-4 text-center">
-              <a href="/netco1/" class="btn btn-outline-light btn-sm">NETCO I archive</a>
-            </div>
-          </div>
-
-        </div>
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>NETCO</span></strong>. All Rights Reserved
       </div>
     </div>
-
   </footer><!-- End Footer -->
-
-  <div class="container">
-    <div class="credits text-center">
-      <p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
-          <img alt="Creative Commons License" style="border-width:0"
-            src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
-        </a>
-        <br>
-        <a style="font-size: smaller;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
-          target="_blank" rel="noopener">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-          International License</a>
-      </p>
-      <p style="font-size: smaller;">Web developed with ❤️ by <a href="http://gabrielmr.com/" style="color:red"
-          target="_blank" rel="noopener">Gabriel Martínez</a>.</p>
-    </div>
-  </div>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
-
-  <div id="cookies-banner">
-    <p>At NETCO Project, we respect your privacy. Therefore, this cookie notice is small and does not cover the screen,
-      so you can continue to browse our site whether you accept cookies or not.</p>
-    <button id="accept-cookies"><strong>Accept</strong></button>
-  </div>
 
   <!-- Vendor JS Files -->
   <script src="/assets/vendor/aos/aos.js"></script>
