@@ -12,8 +12,8 @@
   <meta content="collaborative housing, cohousing, cities, CERV, working packages" name="keywords">
 
   <!-- Favicons -->
-  <link href="/assets/img/favicon.png" rel="icon">
-  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -21,19 +21,19 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="/assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
 
   <style>
-    /* Keep both hero buttons aligned and same height */
+    /* Buttons aligned and same height */
     .hero-btns {
       display: flex;
       gap: 16px;
@@ -52,7 +52,7 @@
       white-space: nowrap;
     }
 
-    /* Improve contrast for the small hero note */
+    /* Better contrast for the small hero note */
     .hero-note {
       margin-top: 12px;
       color: rgba(0, 0, 0, 0.75);
@@ -60,7 +60,7 @@
       max-width: 520px;
     }
 
-    /* Small phase badge */
+    /* Phase badge */
     .phase-badge {
       display: inline-block;
       margin-top: 10px;
@@ -71,6 +71,12 @@
       font-size: 13px;
       font-weight: 600;
     }
+
+    /* IMPORTANT: fallback so content is NOT hidden if AOS doesn't init */
+    [data-aos]:not(.aos-init) {
+      opacity: 1 !important;
+      transform: none !important;
+    }
   </style>
 </head>
 
@@ -80,7 +86,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="/netco2/" class="logo me-auto"><img src="/assets/img/logo.png" alt="NETCO logo" class="img-fluid"></a>
+      <a href="./" class="logo me-auto"><img src="../assets/img/logo.png" alt="NETCO logo" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -92,7 +98,7 @@
           <li><a class="nav-link scrollto" href="#coordinator">Coordinator</a></li>
 
           <li><a class="nav-link getstarted scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link getstarted" href="/netco1/">NETCO I (Archive)</a></li>
+          <li><a class="nav-link getstarted" href="../netco1/">NETCO I (Archive)</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -118,7 +124,7 @@
 
           <div class="hero-btns">
             <a href="#whats-new" class="btn-get-started scrollto">What’s new in NETCO II</a>
-            <a href="/netco1/" class="btn-get-started">Go to NETCO I archive</a>
+            <a href="../netco1/" class="btn-get-started">Go to NETCO I archive</a>
           </div>
 
           <div class="hero-note">
@@ -128,7 +134,7 @@
         </div>
 
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="/assets/img/hero-img.png" class="img-fluid animated" alt="NETCO visual">
+          <img src="../assets/img/hero-img.png" class="img-fluid animated" alt="NETCO visual">
         </div>
 
       </div>
@@ -143,12 +149,11 @@
         <div class="row" data-aos="zoom-in">
 
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <img src="/assets/img/clients/client-1.png" class="img-fluid" alt="European Union">
+            <img src="../assets/img/clients/client-1.png" class="img-fluid" alt="European Union">
           </div>
 
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <!-- Manresa logo (already in your repo) -->
-            <img src="/assets/img/clients/Sen%20t%C3%ADtulo.png" class="img-fluid" alt="Ajuntament de Manresa">
+            <img src="../assets/img/clients/Sen%20t%C3%ADtulo.png" class="img-fluid" alt="Ajuntament de Manresa">
           </div>
 
         </div>
@@ -377,7 +382,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="/assets/img/Maite Arrondo.jpg" class="img-fluid rounded-circle" alt="Coordinator"></div>
+              <div class="pic"><img src="../assets/img/Maite Arrondo.jpg" class="img-fluid rounded-circle" alt="Coordinator"></div>
               <div class="member-info">
                 <h4>Maite Arrondo</h4>
                 <span>Project Coordinator</span>
@@ -393,13 +398,11 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Contact</h2>
           <p>For coordination and communication questions, contact:</p>
           <p><a href="mailto:netcoprojectcontact@gmail.com">netcoprojectcontact@gmail.com</a></p>
         </div>
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -419,16 +422,16 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="/assets/vendor/aos/aos.js"></script>
-  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="/assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
