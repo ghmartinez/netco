@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -85,13 +86,12 @@
     #clients .client-logo {
       max-height: 64px;
       width: auto;
-      height: auto;
-      display: block;
     }
 
-    /* ✅ Manresa logo bigger WITHOUT breaking layout */
-    #clients .client-logo.manresa-logo {
-      max-height: 128px; /* double size */
+    /* ✅ Manresa logo: double size, without breaking the layout */
+    #clients .manresa-logo {
+      max-height: 128px; /* double of 64px */
+      width: auto;
     }
 
     /* Small badge */
@@ -147,7 +147,7 @@
 
           <h1>NETCO II</h1>
 
-          <!-- ✅ UPDATED HERO TEXT -->
+          <!-- ✅ UPDATED TEXT (with collaborative housing highlighted) -->
           <h2>
             NETCO 2.0 strengthens public policies for <strong>collaborative housing</strong> across Europe
             by turning city-to-city peer learning into transferable tools, frameworks, and alliances
@@ -185,8 +185,11 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <!-- ✅ Manresa logo bigger (extra class) -->
-            <img src="/assets/img/clients/Sen%20t%C3%ADtulo.png" class="img-fluid client-logo manresa-logo" alt="Ajuntament de Manresa">
+            <!-- ✅ Manresa logo: correct file + double size -->
+            <img
+              src="/assets/img/clients/alineat%20esquerra%20-%202%20l%C3%ADnies%20-%201%20tinta.jpg"
+              class="img-fluid client-logo manresa-logo"
+              alt="Ajuntament de Manresa">
           </div>
 
         </div>
@@ -471,3 +474,4 @@
 
 </body>
 </html>
+```
