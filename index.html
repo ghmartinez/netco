@@ -206,6 +206,27 @@
       padding: 10px 12px;
     }
     .cookie button:hover{background: rgba(255,255,255,.10)}
+
+    /* ✅ LOGO helpers */
+    .logo-box{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 10px 10px 6px;
+    }
+    .logo{
+      display:block;
+      max-width:100%;
+      height:auto;
+    }
+    /* ✅ Manresa logo: "double" sized (big max-width) */
+    .logo--manresa{
+      max-width: 520px; /* increase/decrease if you want */
+      width: 100%;
+    }
+    @media (max-width: 520px){
+      .logo--manresa{ max-width: 92vw; }
+    }
   </style>
 </head>
 
@@ -238,7 +259,6 @@
 
       <h1>NETCO II</h1>
 
-      <!-- ✅ UPDATED LINE (with collaborative housing highlighted) -->
       <h2>
         NETCO 2.0 strengthens public policies for <strong>collaborative housing</strong> across Europe
         by turning city-to-city peer learning into transferable tools, frameworks, and alliances
@@ -270,18 +290,29 @@
         <div class="card">
           <h3>Partners & funders</h3>
           <p class="small muted">Logos / visuals can be added here when ready.</p>
+
           <div style="display:grid; gap:10px;">
             <div class="card" style="background:rgba(0,0,0,.10); box-shadow:none; padding:12px;">
               <strong>NETCO visual</strong>
               <div class="muted small">Image placeholder</div>
             </div>
+
             <div class="card" style="background:rgba(0,0,0,.10); box-shadow:none; padding:12px;">
               <strong>European Union</strong>
               <div class="muted small">Image placeholder</div>
             </div>
+
+            <!-- ✅ UPDATED: Manresa logo + double size -->
             <div class="card" style="background:rgba(0,0,0,.10); box-shadow:none; padding:12px;">
               <strong>Ajuntament de Manresa</strong>
-              <div class="muted small">Image placeholder</div>
+              <div class="logo-box">
+                <img
+                  class="logo logo--manresa"
+                  loading="lazy"
+                  alt="Ajuntament de Manresa"
+                  src="https://raw.githubusercontent.com/ghmartinez/netco/master/assets/img/clients/alineat%20esquerra%20-%202%20l%C3%ADnies%20-%201%20tinta.jpg"
+                />
+              </div>
             </div>
           </div>
         </div>
