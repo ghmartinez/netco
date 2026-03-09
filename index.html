@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,11 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NETCO II — Coming Soon</title>
+  <title>NETCO II — Network of Cities for Collaborative Housing</title>
   <meta
-    content="NETCO II is the renewed phase of the Network of Cities for Collaborative Housing (NETCO). Materials from NETCO I remain available in the archive."
+    content="NETCO empowers European cities to co-create inclusive, affordable and community-led housing solutions. A network of cities for collaborative housing."
     name="description">
-  <meta content="collaborative housing, cohousing, local governments, peer learning" name="keywords">
+  <meta content="collaborative housing, cohousing, local governments, peer learning, European cities, affordable housing" name="keywords">
 
   <!-- Favicons -->
   <link href="/assets/img/favicon.png" rel="icon">
@@ -88,9 +87,9 @@
       width: auto;
     }
 
-    /* ✅ Manresa logo: double size, without breaking the layout */
+    /* Manresa logo: double size, without breaking the layout */
     #clients .manresa-logo {
-      max-height: 128px; /* double of 64px */
+      max-height: 128px;
       width: auto;
     }
 
@@ -104,6 +103,57 @@
       border-radius: 999px;
       font-weight: 600;
       margin-bottom: 14px;
+    }
+
+    /* About sub-sections spacing */
+    .about-subsection {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(0,0,0,0.08);
+    }
+    .about-subsection h3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #37517e;
+      margin-bottom: 18px;
+    }
+
+    /* Icon boxes for What We Do (Activities) */
+    .icon-box-custom {
+      padding: 30px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+      transition: 0.3s;
+      height: 100%;
+    }
+    .icon-box-custom:hover {
+      box-shadow: 0 4px 25px rgba(0,0,0,0.12);
+      transform: translateY(-4px);
+    }
+    .icon-box-custom .icon {
+      font-size: 36px;
+      color: #47b2e4;
+      margin-bottom: 16px;
+    }
+    .icon-box-custom h4 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    /* Highlight boxes for EU alignment in What's Next */
+    .eu-alignment-box {
+      padding: 24px 28px;
+      background: #f8f9ff;
+      border-left: 4px solid #47b2e4;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 20px;
+    }
+    .eu-alignment-box h5 {
+      font-weight: 700;
+      color: #37517e;
+      margin-bottom: 8px;
     }
   </style>
 </head>
@@ -122,8 +172,9 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">NETCO II</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#whats-new">What's Next</a></li>
+          <li><a class="nav-link scrollto" href="#activities">What We Do</a></li>
           <li><a class="nav-link scrollto" href="#work-packages">Work Packages</a></li>
-          <li><a class="nav-link scrollto" href="#activities">Activities</a></li>
           <li><a class="nav-link scrollto" href="#partners">Partners</a></li>
           <li><a class="nav-link scrollto" href="#coordinator">Coordinator</a></li>
           <li><a class="nav-link getstarted scrollto" href="#contact">Contact</a></li>
@@ -143,24 +194,25 @@
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up"
           data-aos-delay="200">
 
-          <span class="phase-badge">Phase II — Coming soon</span>
+          <span class="phase-badge">Phase II</span>
 
           <h1>NETCO II</h1>
 
-          <!-- ✅ UPDATED TEXT (with collaborative housing highlighted) -->
           <h2>
-            NETCO 2.0 strengthens public policies for <strong>collaborative housing</strong> across Europe
-            by turning city-to-city peer learning into transferable tools, frameworks, and alliances
-            that support affordability, inclusion, and sustainability.
+            NETCO empowers European cities to co-create inclusive, affordable and community-led
+            <strong>housing solutions</strong> — together.<br>
+            Where European cities turn collaborative housing into lasting change.
           </h2>
 
           <div class="hero-actions">
-            <a href="#whats-new" class="btn-get-started scrollto">What’s new in NETCO II</a>
+            <a href="#whats-new" class="btn-get-started scrollto">What's new in NETCO II</a>
             <a href="/netco1/" class="btn-archive">Go to NETCO I archive</a>
           </div>
 
           <p class="hero-note">
-            This is the current project phase (NETCO II). Materials from NETCO I remain available in the archive.
+            By connecting local experimentation with European policy priorities, NETCO helps cities
+            translate EU ambitions into concrete, place-based housing solutions — reinforcing
+            collaborative housing as a key pillar of Europe's response to the housing crisis.
           </p>
 
         </div>
@@ -185,7 +237,6 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <!-- ✅ Manresa logo: correct file + double size -->
             <img
               src="/assets/img/clients/alineat%20esquerra%20-%202%20l%C3%ADnies%20-%201%20tinta.jpg"
               class="img-fluid client-logo manresa-logo"
@@ -196,49 +247,201 @@
       </div>
     </section><!-- End Clients Section -->
 
-    <!-- ======= What's new Section ======= -->
-    <section id="whats-new" class="about">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>NETCO II — Coming soon</h2>
-        </div>
-
-        <div class="row content">
-          <div class="col-lg-12">
-            <div class="alert alert-info" role="alert" style="margin-bottom:0;">
-              This page is being updated. The calendar, materials, partner directory and communication resources will be published shortly.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End What's new Section -->
-
     <!-- ======= About Section ======= -->
+    <!-- Contains: NETCO description + Why NETCO + What Is Collaborative Housing + A Network of Cities -->
     <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>About</h2>
+          <p>A Network of Cities for Collaborative Housing</p>
         </div>
 
+        <!-- NETCO description -->
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              <strong>Network of Cities for Collaborative Housing</strong> (NETCO) connects cities and partners working on collaborative housing.
-              NETCO II continues the network with a renewed focus on shared learning and coordination.
+              <strong>NETCO</strong> brings together European cities, public authorities, and civil society
+              organisations committed to advancing collaborative housing as a key response to the housing crisis.
+            </p>
+            <p>
+              Through peer learning, policy exchange and practical collaboration, NETCO supports local governments
+              in designing, implementing and scaling community-led, inclusive and affordable housing models across Europe.
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              NETCO II content will be published progressively. For full materials from the previous phase, visit the archive.
+              NETCO acts as a bridge between local housing innovation and European policy ambitions.
+            </p>
+            <p>
+              For full materials from the previous phase, visit the archive.
             </p>
             <a href="/netco1/" class="btn-learn-more">Go to NETCO I archive</a>
+          </div>
+        </div>
+
+        <!-- Why NETCO? -->
+        <div class="about-subsection">
+          <h3>Why NETCO?</h3>
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>Europe's housing challenges are local — but solutions grow stronger when cities learn together.</p>
+              <p>NETCO exists to:</p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Share real, on-the-ground experiences from cities experimenting with collaborative housing</li>
+                <li><i class="ri-check-double-line"></i> Strengthen local housing policies and instruments</li>
+                <li><i class="ri-check-double-line"></i> Support cities in moving from pilot projects to systemic change</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+                Collaborative housing is not a niche solution — it is a strategic tool for social inclusion,
+                affordability and democratic urban development.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- What Is Collaborative Housing? -->
+        <div class="about-subsection">
+          <h3>What Is Collaborative Housing?</h3>
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                Collaborative housing refers to housing initiatives driven by residents and communities,
+                often in partnership with public authorities and non or limited profit organisations.
+              </p>
+              <p>These models include:</p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Co-housing and cooperative housing</li>
+                <li><i class="ri-check-double-line"></i> Community Land Trusts (CLTs)</li>
+                <li><i class="ri-check-double-line"></i> Resident-led and non-speculative housing initiatives</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>They prioritise:</p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Affordability and long-term social value</li>
+                <li><i class="ri-check-double-line"></i> Participation and collective governance</li>
+                <li><i class="ri-check-double-line"></i> Social mix and inclusion</li>
+                <li><i class="ri-check-double-line"></i> Sustainable and community-oriented urban development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- A Network of Cities, A Shared Vision -->
+        <div class="about-subsection">
+          <h3>A Network of Cities, A Shared Vision</h3>
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>NETCO connects municipalities of different sizes and contexts, fostering:</p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Mutual learning between early adopters and emerging cities</li>
+                <li><i class="ri-check-double-line"></i> Cross-country dialogue on policy, regulation and funding</li>
+                <li><i class="ri-check-double-line"></i> A shared European narrative around housing as a common good</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+                Together, cities build collective intelligence to make collaborative housing a viable and scalable
+                option across Europe.
+              </p>
+            </div>
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Work Packages Section ======= -->
+    <!-- ======= What's New Section → now "NETCO II — What's Next" ======= -->
+    <section id="whats-new" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>NETCO II — What's Next</h2>
+          <p>Building on the momentum of its first phase, NETCO II strengthens its role as a European platform for cities shaping the future of collaborative housing.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>In this new phase, NETCO:</p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Deepens coordination and peer learning among participating cities</li>
+              <li><i class="ri-check-double-line"></i> Enhances structured knowledge exchange, communication and visibility</li>
+              <li><i class="ri-check-double-line"></i> Supports cities in moving from experimentation to long-term, scalable solutions</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p style="margin-bottom: 18px;">NETCO II is closely aligned with key European initiatives, reinforcing its strategic relevance:</p>
+
+            <div class="eu-alignment-box">
+              <h5>New European Bauhaus</h5>
+              <p style="margin-bottom: 0;">
+                NETCO contributes to the New European Bauhaus vision by promoting beautiful, sustainable and
+                inclusive living environments, rooted in community participation, social innovation and
+                high-quality urban design.
+              </p>
+            </div>
+
+            <div class="eu-alignment-box">
+              <h5>European Affordable Housing Plan</h5>
+              <p style="margin-bottom: 0;">
+                NETCO supports the objectives of the European Affordable Housing Plan by advancing non-speculative,
+                affordable and community-led housing models, and by strengthening the capacity of cities to deliver
+                housing as a social infrastructure and a common good.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End What's Next Section -->
+
+    <!-- ======= Activities Section → now "What We Do" ======= -->
+    <section id="activities" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>What We Do</h2>
+          <p>NETCO creates spaces for exchange and collective learning.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box-custom">
+              <div class="icon"><i class="bi bi-people"></i></div>
+              <h4>European conferences &amp; thematic workshops</h4>
+              <p>Full-network gatherings to share knowledge, debate policy and build alliances across countries.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box-custom">
+              <div class="icon"><i class="bi bi-arrow-left-right"></i></div>
+              <h4>Peer-to-peer sessions between cities</h4>
+              <p>Direct exchange between municipalities to learn from each other's challenges and successes.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box-custom">
+              <div class="icon"><i class="bi bi-camera-video"></i></div>
+              <h4>Webinars &amp; online learning moments</h4>
+              <p>Accessible formats for continuous learning and engagement beyond in-person events.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box-custom">
+              <div class="icon"><i class="bi bi-journal-richtext"></i></div>
+              <h4>Shared resources, policy insights &amp; practical tools</h4>
+              <p>Curated materials rooted in real local challenges — from legal frameworks and land access to financing, governance and social impact.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End What We Do Section -->
+
+    <!-- ======= Work Packages Section (placeholder kept) ======= -->
     <section id="work-packages" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -255,24 +458,6 @@
         </div>
       </div>
     </section><!-- End Work Packages Section -->
-
-    <!-- ======= Activities Section ======= -->
-    <section id="activities" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Activities</h2>
-          <p>Formats will include webinars, full-network in-person meetings, and smaller focus groups.</p>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="alert alert-light" role="alert">
-              The activity calendar and registration details will be published shortly.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Activities Section -->
 
     <!-- ======= Partners Section ======= -->
     <section id="partners" class="about">
@@ -474,4 +659,3 @@
 
 </body>
 </html>
-```
