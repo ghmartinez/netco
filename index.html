@@ -111,6 +111,7 @@
       padding-top: 32px;
       border-top: 1px solid rgba(0,0,0,0.08);
     }
+
     .about-subsection h3 {
       font-size: 22px;
       font-weight: 700;
@@ -127,15 +128,18 @@
       transition: 0.3s;
       height: 100%;
     }
+
     .icon-box-custom:hover {
       box-shadow: 0 4px 25px rgba(0,0,0,0.12);
       transform: translateY(-4px);
     }
+
     .icon-box-custom .icon {
       font-size: 36px;
       color: #47b2e4;
       margin-bottom: 16px;
     }
+
     .icon-box-custom h4 {
       font-weight: 600;
       margin-bottom: 10px;
@@ -150,50 +154,60 @@
       border-radius: 0 8px 8px 0;
       margin-bottom: 20px;
     }
+
     .eu-alignment-box h5 {
       font-weight: 700;
       color: #37517e;
       margin-bottom: 8px;
     }
+
     /* NETCO videos */
-.video-card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
-  overflow: hidden;
-  height: 100%;
-  transition: 0.3s;
-}
+    #videos .section-title p {
+      max-width: 760px;
+      margin: 0 auto;
+    }
 
-.video-card:hover {
-  box-shadow: 0 4px 25px rgba(0,0,0,0.12);
-  transform: translateY(-4px);
-}
+    .video-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+      overflow: hidden;
+      height: 100%;
+      transition: 0.3s;
+    }
 
-.video-card video {
-  width: 100%;
-  display: block;
-  background: #000;
-}
+    .video-card:hover {
+      box-shadow: 0 4px 25px rgba(0,0,0,0.12);
+      transform: translateY(-4px);
+    }
 
-.video-card-body {
-  padding: 18px 20px;
-  text-align: center;
-}
+    .video-card video {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      display: block;
+      background: #000;
+    }
 
-.video-card-body h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #37517e;
-  margin-bottom: 6px;
-}
+    .video-card-body {
+      padding: 18px 20px;
+      text-align: center;
+    }
 
-.video-card-body p {
-  font-size: 14px;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
+    .video-card-body h4 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #37517e;
+      margin-bottom: 6px;
+    }
+
+    .video-card-body p {
+      font-size: 14px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #444;
+    }
   </style>
 </head>
 
@@ -221,10 +235,11 @@
           <li><a class="getstarted" href="/netco1/">NETCO I (Archive)</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -263,7 +278,8 @@
 
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
 
   <main id="main">
 
@@ -285,10 +301,10 @@
 
         </div>
       </div>
-    </section><!-- End Clients Section -->
+    </section>
+    <!-- End Clients Section -->
 
     <!-- ======= About Section ======= -->
-    <!-- Contains: NETCO description + Why NETCO + What Is Collaborative Housing + A Network of Cities -->
     <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -296,7 +312,6 @@
           <p>A Network of Cities for Collaborative Housing</p>
         </div>
 
-        <!-- NETCO description -->
         <div class="row content">
           <div class="col-lg-6">
             <p>
@@ -319,7 +334,6 @@
           </div>
         </div>
 
-        <!-- Why NETCO? -->
         <div class="about-subsection">
           <h3>Why NETCO?</h3>
           <div class="row content">
@@ -341,7 +355,6 @@
           </div>
         </div>
 
-        <!-- What Is Collaborative Housing? -->
         <div class="about-subsection">
           <h3>What Is Collaborative Housing?</h3>
           <div class="row content">
@@ -369,7 +382,6 @@
           </div>
         </div>
 
-        <!-- A Network of Cities, A Shared Vision -->
         <div class="about-subsection">
           <h3>A Network of Cities, A Shared Vision</h3>
           <div class="row content">
@@ -391,9 +403,10 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
-    <!-- ======= What's New Section → now "NETCO II — What's Next" ======= -->
+    <!-- ======= What's New Section ======= -->
     <section id="whats-new" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -435,9 +448,10 @@
         </div>
 
       </div>
-    </section><!-- End What's Next Section -->
+    </section>
+    <!-- End What's Next Section -->
 
-    <!-- ======= Activities Section → now "What We Do" ======= -->
+    <!-- ======= Activities Section ======= -->
     <section id="activities" class="services section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -479,51 +493,173 @@
           </div>
         </div>
       </div>
-    </section><!-- End What We Do Section -->
+    </section>
+    <!-- End What We Do Section -->
 
-    <!-- ======= Work Packages Section (placeholder kept) ======= -->
-<section id="work-packages" class="services">
-  <div class="container" data-aos="fade-up">
-    <div class="section-title">
-      <h2>Work Packages</h2>
-      <p>Explore the presentation preview or download the PDF.</p>
-    </div>
+    <!-- ======= Videos Section ======= -->
+    <section id="videos" class="services">
+      <div class="container" data-aos="fade-up">
 
-    <div class="row justify-content-center">
-      <div class="col-lg-10">
-        <div style="background:#fff; border-radius:12px; box-shadow:0 2px 15px rgba(0,0,0,0.08); padding:20px;">
+        <div class="section-title">
+          <h2>Videos</h2>
+          <p>Short clips from NETCO speakers and project partners.</p>
+        </div>
 
-          <div style="width:100%; height:700px; margin-bottom:20px; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
-            <embed
-              src="/assets/img/netco-work-packages-preview.pdf"
-              type="application/pdf"
-              width="100%"
-              height="100%">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/08_Maite_NETCO.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Maite Arrondo</h4>
+                <p>NETCO</p>
+              </div>
+            </div>
           </div>
 
-          <div class="text-center">
-            <a href="/assets/img/netco-work-packages-preview.pdf"
-               class="btn-learn-more"
-               target="_blank"
-               rel="noopener"
-               download>
-              Download PDF
-            </a>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/05_Grzegorz_ComisionEU.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Grzegorz Gajewski</h4>
+                <p>EU Housing Task Force</p>
+              </div>
+            </div>
+          </div>
 
-            <a href="/assets/img/netco-work-packages-preview.pdf"
-               class="btn-learn-more"
-               target="_blank"
-               rel="noopener"
-               style="margin-left:12px;">
-              Open PDF
-            </a>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/01_Sander_Amsterdam.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Sander Voogt</h4>
+                <p>City of Amsterdam</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/02_Silvia_Bologna.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Silvia Calastri</h4>
+                <p>City of Bologna</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/03_Ricardo_Manresa.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Ricard Torres</h4>
+                <p>City of Manresa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/04_Jose_SostreCivic.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Jose Téllez</h4>
+                <p>Sostre Cívic</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/07_Julia_Alianza.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Giulia Barnhisel</h4>
+                <p>ECLTN</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="video-card">
+              <video controls preload="metadata" playsinline>
+                <source src="/assets/img/06_Sorcha_HousingEU.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-card-body">
+                <h4>Sorcha Edwards</h4>
+                <p>Housing Europe</p>
+              </div>
+            </div>
           </div>
 
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+    <!-- End Videos Section -->
+
+    <!-- ======= Work Packages Section ======= -->
+    <section id="work-packages" class="services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Work Packages</h2>
+          <p>Explore the presentation preview or download the PDF.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div style="background:#fff; border-radius:12px; box-shadow:0 2px 15px rgba(0,0,0,0.08); padding:20px;">
+
+              <div style="width:100%; height:700px; margin-bottom:20px; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
+                <embed
+                  src="/assets/img/netco-work-packages-preview.pdf"
+                  type="application/pdf"
+                  width="100%"
+                  height="100%">
+              </div>
+
+              <div class="text-center">
+                <a href="/assets/img/netco-work-packages-preview.pdf"
+                   class="btn-learn-more"
+                   target="_blank"
+                   rel="noopener"
+                   download>
+                  Download PDF
+                </a>
+
+                <a href="/assets/img/netco-work-packages-preview.pdf"
+                   class="btn-learn-more"
+                   target="_blank"
+                   rel="noopener"
+                   style="margin-left:12px;">
+                  Open PDF
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Work Packages Section -->
 
     <!-- ======= Partners Section ======= -->
     <section id="partners" class="about">
@@ -569,7 +705,8 @@
         </div>
 
       </div>
-    </section><!-- End Partners Section -->
+    </section>
+    <!-- End Partners Section -->
 
     <!-- ======= Coordinator Section ======= -->
     <section id="coordinator" class="team section-bg coordinator-center">
@@ -600,7 +737,8 @@
         </div>
 
       </div>
-    </section><!-- End Coordinator Section -->
+    </section>
+    <!-- End Coordinator Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -669,9 +807,11 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -701,7 +841,8 @@
         </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
